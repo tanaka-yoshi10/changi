@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ble
+Bundle-SymbolicName: com.fujitsu.m2m.faultdetection.ble
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.tanaka.jruby.ble.Activator
+Bundle-Vendor: FUJITSU
+Require-Bundle: org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/jruby-complete-1.7.12.jar,
+ .
