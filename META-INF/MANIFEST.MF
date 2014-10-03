@@ -5,7 +5,7 @@ Bundle-SymbolicName: com.fujitsu.m2m.faultdetection.ble
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.tanaka.jruby.ble.Activator
 Bundle-Vendor: FUJITSU
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.jruby.jruby;bundle-version="1.7.12"
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: lib/jruby-complete-1.7.12.jar,
- .
+Bundle-ClassPath: .
